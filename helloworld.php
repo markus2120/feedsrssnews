@@ -38,29 +38,17 @@
                                 "url" => "http://feeds.reuters.com/reuters/topNews"
                             ),      
                             array(
+                                "title" => "CT",
+                                "url" => "https://www.techstage.de/rss.xml"
+                            ),      
+                            array(
+                                "title" => "Golem",
+                                "url" => "https://rss.golem.de/rss.php?feed=RSS2.0"
+                            ),      
+                            array(
                                 "title" => "Eilmeldungen",
                                 "url" => "http://rss.sueddeutsche.de/rss/Eilmeldungen"
                             ),      
-                            array(
-                                "title" => "SZ-Magazin",
-                                "url" => "https://sz-magazin.sueddeutsche.de/rss"
-                            ),      
-                            array(
-                                "title" => "Gesellschaft",
-                                "url" => "http://rss.sueddeutsche.de/rss/Leben"
-                            ),                            
-                            array(
-                                "title" => "Medien",
-                                "url" => "http://rss.sueddeutsche.de/rss/Medien"
-                            ),                            
-                            array(
-                                "title" => "Politik",
-                                "url" => "http://rss.sueddeutsche.de/rss/Politik"
-                            ),                            
-                            array(
-                                "title" => "Karriere",
-                                "url" => "http://rss.sueddeutsche.de/rss/Karriere"
-                            ),                            
                             array(
                                 "title" => "Handelsblatt",
                                 "url" => "http://www.handelsblatt.com/contentexport/feed/top-themen"
@@ -110,8 +98,12 @@
                                 "url" => "http://planet.gnome.org/rss20.xml"
                             ),
                             array(
-                                "title" => "Hessenschau",
-                                "url" => "http://www.hessenschau.de/index.rss"
+                                "title" => "CNET",
+                                "url" => "https://www.cnet.com/rss/news/"
+                            ),
+                            array(
+                                "title" => "CNET",
+                                "url" => "https://www.heise.de/netze/netzwerk-tools/imonitor-internet-stoerungen/feed/aktuelle-meldungen/"
                             ),
                         );
                         function getFeed($url){
